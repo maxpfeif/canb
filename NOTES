@@ -1,0 +1,80 @@
+NOTES TAKEN WHILE STATIONARY. TESTING BY LISTENING TO CAN B 
+
+ID			DATA				NOTE
+421400B, 	00 86 3E 04 00 00 00 00	IN PARK, BRAKE UNPRESSED
+421400B,	00 86 3E 04 40 00 00 00	IN PARK, BRAKE PRESSED 
+
+SHIFTER INFORMAITON: 
+The third byte is the 'ok to shift' message, likely the message that control the solenoid in the shifter, and is either being 
+reported by the shifter or sent to the shifter. 
+
+
+ID			DATA				NOTE
+2214000 	006800000000		Always seen as this (static)
+
+6214000		2C00400000370B00	Always seen as this (static)
+
+A3D4003
+
+
+
+4294001 - Always 0000000000000180
+
+4394100 - 7EB7EA0003FE0000 or some variant, not HVAC related 
+
+621401A - 0005010000000000
+
+6314000 - 0000000000000000 (Always)
+
+4394000 - 00000043 (Always) 
+
+4214001 - Instrument cluster data, seems like its just a passthrough of 
+
+421400B - Shifter information 
+
+4214006 - Always 0000000000000000
+
+6314003 - 2010300000000000 always  
+
+621400A - Always seen at 00 00 
+
+2214000 - Statis 006800000000
+
+6214000 - Static 2C00400000370B00
+
+A3D4003 - Static 2CA5100770000000
+
+6284000 - Static 0000000000000000
+
+6254000 - Static 80FFFF00FFFFFF00
+
+A354003 - Static 2CA5100790000000
+
+A194003 - Static 0000400000000000
+
+6264000 - NOT STATIC 071ED07FF0191B00, seems to report engine information. 
+
+63D4000 - *almost* static 595A00000BC00000
+
+C394003 - Static C202000008016000
+
+E094000 - Static 001E04401C4B
+
+E094003 - Static 001E
+
+E094020 - Static 000A
+
+6314020 - Varies,080000A8 not sure what this is 
+
+E09400A - Static 001E 
+
+E09401A - Static 001E
+
+2294000 - Static 0000000000000000
+
+C214003 - Date and time to be displayed 
+
+C054003 - Static 1781CAE188DB0000
+
+
+
